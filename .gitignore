@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Build directories
+/.next
+/out
+/dist
+/build
+
+# Production environment variables
+.env
+.env.local
+.env.production
+.env.production.local
+
+# Local environment variables
+.env.development.local
+
+# Miscellaneous
+.DS_Store
+*.pem
+*.crt
+*.key
+
+# Next.js specific
+.vercel
+.next
+out
+
+# Coverage directory used by testing tools like jest
+coverage
+
+# TypeScript
+*.tsbuildinfo
+
+# eslint and prettier
+.eslintcache
+.prettier.cache
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
